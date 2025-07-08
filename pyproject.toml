@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "flyte-test"
+version = "0.1.0"
+description = ""
+authors = ["Moustafa <mosafehashf@gmail.com>"]
+readme = "README.md"
+packages = [{include = "flyte_test"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+flytekit = "^1.16.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
